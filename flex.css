@@ -1,0 +1,97 @@
+
+
+:root{
+  --mamainlogocolor-1:rgb(217, 246, 227);
+}
+body{
+  background-color: rgb(240, 250, 241);
+}
+
+
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 1000px;
+
+
+ 
+ 
+}
+.container >main{
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+ 
+}
+.item1{
+  
+  width:  500px;
+  height: 450px;
+  background: var(--mamainlogocolor-1);
+  z-index: 3;
+}
+
+
+.item2{
+  width:  30%;
+  height: 100%;
+  color:white;
+  font-size: 70px;
+  font-weight: 800;
+  font-style: italic;
+  background-color: black;
+  z-index: 1;
+}
+.item2>a:link{
+ color:white;
+}
+.item2>a:visited {
+  color :white;
+}
+.item2>a:hover{
+  color :silver;
+}
+.item3{
+  width:  30%;
+  height: 100%;
+  
+  background: var(--mamainlogocolor-1)
+}
+
+.container>.section{
+  width: 100vw;
+
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+.box1>img{
+  width: 60vw;
+  height: 500px;
+  z-index: 2;
+  
+}
+.box2>img{
+  width: 40vw;
+  height: 500px;
+  border-left: 2px solid white;
+  
+}
+
+.container>footer>img{
+  display: flex;
+  
+  width: 100%;
+  height: 300px;
+ 
+  
+}
+
